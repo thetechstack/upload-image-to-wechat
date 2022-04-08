@@ -4,7 +4,7 @@
 
 ## 获取APPID和APPSECRET
 
-登录微信公众号后台在`开发->基本配置`里获得，注意获取APPID和APPSECRET后还得设置ip白名单。
+登录微信公众号后台在`开发->基本配置`里获得，注意获取APPID和APPSECRET后还得设置ip白名单（如果不知道设哪个ip, 可以先调用get_access_token，看错误提示哪个ip）。
 
 ## 完整代码
 
